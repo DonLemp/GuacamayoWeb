@@ -3,6 +3,7 @@
  */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
+/* Default ROOT Html 1 REM = 16px */
 html {
   font-size: 62.5%;
 }
@@ -63,7 +64,7 @@ p + p {
 
 }
  */
- 
+
 /**
  * Quotes & Blockquotes
  */
@@ -106,7 +107,7 @@ header {
   /* background: rgba(0,0,0,.8); */
   background: rgba(0, 1, 17, 0.8);
   padding:25px;
-  color:#14b6d3; /* #5fd44f */
+  color:#14b6d3; /* #5fd44f #14b6d3 #1d92cf */
 }
 
 #content { 
@@ -162,7 +163,7 @@ ul.main-menu li a.active {
   padding-right: 0.8rem;
   padding-bottom: 1rem;
 }
-
+/* 39.9375em */
 @media screen and (max-width: 39.9375em) {
   .social-links {
     padding: 2rem 0;

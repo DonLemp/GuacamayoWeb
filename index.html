@@ -18,10 +18,13 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+    <!-- Use these stylesheets for icons and typography in head of your HTML doc if you want :) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     
   </head>
   
@@ -46,11 +49,21 @@
           <div id="home" class="content-region hide">
             <h2>Inicio</h2>
             <p>
-              Bienvenidos!
+              Bienvenidos! Nuestra oferta de servicios de consultoría en una nuez:
             </p>
             <ul>
-              <li>hola como estas</li>
-              <li>hola como estas2</li>
+              <li>Negocios</li>
+                <ul>
+                  <li>Capacitaciones en Blockchain y Criptomonedas</li>
+                  <li>Capacitaciones en Machine Learning e Inteligencia Artificial</li>
+                  <li>Diseño y Arquitectura de Negocios con Web3.0, Blockchain y criptoactivos</li>
+                  <li>Diseño y Arquitectura de Negocios con Machine Learning e Inteligencia Artificial</li>
+                </ul>
+              <li>Tecnología e Infraestructura</li>
+                <ul>
+                  <li>Implementación en Kubernetes</li>
+                  <li>Desarrollo de software a pedido</li>
+                </ul>          
             </ul>
           </div>
           
@@ -75,25 +88,22 @@
         </div>
       </div>
     </div>
-      <!-- Use these stylesheets for icons and typography in head of your HTML doc if you want :) -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-      <!-- Start of body below -->
+
     <footer>
       <div class="social-links">
-        <div class="row">
-          <div class="small-6 medium-3 columns text-center mobile-stack">
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
-          </div>
-          <div class="small-6 medium-3 columns text-center mobile-stack">
-            <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
-          </div>
-          <div class="small-6 medium-3 columns text-center mobile-stack">
-            <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i>Pinterest</a>
-          </div>
-          <div class="small-6 medium-3 columns text-center mobile-stack">
-            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
-          </div>
-        </div>
+        <table>
+          <tr>
+            <th><div class="small-6 medium-3 columns text-center mobile-stack">
+              <a href="https://www.linkedin.com/company/guacamayo-consultores/"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+            </div></th>
+            <th><div class="small-6 medium-3 columns text-center mobile-stack">
+              <a href="https://www.facebook.com/guacamayoconsultores"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+            </div></th>
+            <!--  <th><div class="small-6 medium-3 columns text-center mobile-stack">
+              <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a> -->
+            </div></th>
+          </tr>
+        </table>
       </div>        
     </footer>
         <!-- Load additional JS scripts here -->
