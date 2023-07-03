@@ -96,7 +96,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpeg) center center no-repeat fixed;
+  background:url(img/background.jpeg) center center no-repeat fixed;
   background-size:cover;
 }
 body {
@@ -188,4 +188,9 @@ ul.main-menu li a.active {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+canvas {
+  background: #000000;
+  border: 1px dashed;
 }

@@ -7,7 +7,7 @@
     <meta name="description" content="Consultoria Web Blockchain GPT">
     <meta name="author" content="Information about the author here">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
   
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
@@ -17,7 +17,7 @@
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <!-- jQuery -->
+    <!-- jQuery src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Want to add Bootstrap? -->
@@ -31,14 +31,14 @@
   <body>
 
     <header id="header">
-      <img src="logo.png" alt="Guacamayo" width="130" height="100">
+      <img src="img/logo.png" alt="Guacamayo" width="130" height="100">
       <h1>Guacamayo Consultores</h1>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">inicio</a></li>
-        <li><a href="#industry">nuestra especialidad</a></li>
-        <li><a href="#teach">cursos y capacitaciones</a></li>
+        <li><a href="#industry">nuestras especialidades</a></li>
+        <li><a href="#teach">cursos</a></li>
         <li><a href="#about">sobre nosotros</a></li>
         <li><a href="#contact">contacto</a></li>
       </ul>                 
@@ -47,7 +47,6 @@
     <div id="container">
       <div class="inner">
         <div id="content"> 
-          
           <div id="home" class="content-region hide">
             <h2>Inicio</h2>
             <p>
@@ -55,24 +54,45 @@
             </p>
           </div>
           <div id="industry" class="content-region hide">
-            <h2>Nuestra especialidad</h2>  
+            <h2>Nuestras especialidades</h2>
             <ul>
-              <li>Casos de Uso tradicionales en los que sabemos AYUDAR</li>
+              <li><h4><a href="#industry-tradition">Casos de Uso tradicionales</a></h4></li>
+              <p> </p>
+              <li><h4><a href="#industry-4W3">Casos de Uso para industria 4.0 y Web3.0</a></h4></li>
+              <p> </p>
+              <li><h4><a href="#industry-tech">Tecnologías seleccionadas - no exclusivas</a></h4></li>
+            </ul>
+          </div>
+          <div id="industry-tradition" class="content-region hide">
+            <h2>Nuestras especialidades</h2>
+            <ul>
+              <li><h4>Casos de Uso tradicionales</h4></li>
                 <ul>
                   <li>Análisis de reducción de Gastos de Empresa</li>
-                  <li>Desarrollo de Reportería para Sistemas de Terceros que disponibilicen acceso por API. Ej. Comercio Minorista/Mayorista</li>
+                  <li>Migraciones desde y hacia la nube</li> 
+                  <li>Desarrollo de Reportería de Control de Gestión desde Sistemas de Terceros que disponibilicen API.<br>Ej. Comercio Minorista/Mayorista</li>
                   <li>Apoyo técnico en Proyectos, Pruebas de Concepto (POC) y Productos Mínimos Viables (MVP)</li>
-                  <li>Migraciones y Monitoreo de Datos</li>
-                  <li>DevOps: CI/CD, Microservicios API, Monitoreo Sistemas, Control de Cambio, Soporte Productivo, etc.</li>
+                  <li>DevOps CI/CD: Microservicios API, Monitoreo Datos/Sistemas, Control de Cambios, Soporte Productivo, etc.</li>
                 </ul>
-              <li>Casos de Uso para industria 4.0 y Web3.0</li>
+              <p> </p>
+              <li><h4><a href="#industry-4W3">Casos de Uso para industria 4.0 y Web3.0</a></h4></li>
+                <p> </p>       
+              <li><h4><a href="#industry-tech">Tecnologías seleccionadas pero no exclusivas</a></h4></li> 
+            </ul>
+          </div>
+          <div id="industry-4W3" class="content-region hide">
+            <h2>Nuestras especialidades</h2>
+            <ul>
+              <li><h4><a href="#industry-tradition">Casos de Uso tradicionales</a></h4></li>
+              <p> </p>
+              <li><h4>Casos de Uso para industria 4.0 y Web3.0</h4></li>
                 <ul>
                   <li>Transformación Digital del Negocio para Industria 4.0, Web3.0</li>
                   <li>Análisis de Alfabetización de datos y Calidad de Datos para entrenamiento</li>
                   <li>Titularización de activos digitales tokenizados</li>
                   <li>Sistemas Alternativos de Pago</li>
-                  <li>Modelamiento, Análisis Exploratorio y descriptivo usando técnicas de Analítica Predictiva, Machine Learning</li>
-                  <li>Emisiones de Tokens: Utility Token Offering (UTO), Security Token Offering (STO), Equity Token Offering (ETO, ex ICO), etc. </li>
+                  <li>Modelamiento, Análisis Exploratorio y descriptivo usando técnicas de Analítica Predictiva,<br>Machine Learning</li>
+                  <li>Emisiones de Tokens: Utility Token Offering (UTO), Security Token Offering (STO),<br>Equity Token Offering (ETO, ex ICO), etc. </li>
                   <li>DESARROLLO de componentes y soluciones de integración con</li>
                     <ul>
                       <li>REST API + Web3.0</li>
@@ -81,22 +101,33 @@
                       <li>Tokenización de activos y Custodia de activos digitales</li>
                       <li>Implementación e integración en Kubernetes</li>
                     </ul>
-                </ul>          
-                <li>Tecnologías seleccionadas</li>
+                </ul>
+              <p> </p>       
+              <li><h4><a href="#industry-tech">Tecnologías seleccionadas pero no exclusivas</a></h4></li>
+            </ul>
+          </div>
+          <div id="industry-tech" class="content-region hide">
+            <h2>Nuestras especialidades</h2>
+            <ul>
+              <li><h4><a href="#industry-tradition">Casos de Uso tradicionales</a></h4></li>
+              <p> </p>
+              <li><h4><a href="#industry-4W3">Casos de Uso para industria 4.0 y Web3.0</a></h4></li>
+              <p> </p>       
+              <li><h4>Tecnologías seleccionadas pero no exclusivas</h4></li>
                 <ul>
                   <li>Stack: Python, Node.js, EJS, Express, REACT</li>
                   <li>Base de Datos SQL: MongoDB, MySQL, PostgreSQL</li>
                   <li>Blockchain: Ethereum + EVM, Polygon, Avalanche</li>
+                  <li>Nubes: AWS, Google Cloud</li>
                   <li>Analítica Predictiva, Machine Learning, ChatGPT</li>
-                  <li>Herramientas de Monitoreo</li>
-                  <li>Herramientas de DevOps</li>
+                  <li>DevOps, Soporte y Monitoreo con GitHub, Kubernetes, Docker, JIRA, </li>
                 </ul>   
             </ul>
           </div>
           <div id="teach" class="content-region hide">
-              <h2>Cursos y capacitaciones</h2> 
+              <h2>Cursos</h2> 
               <p>
-                Temas a la medida:
+                Temática a la medida:
               </p>
               <ul>
                 <li>Web3.0 en Blockchain y Criptomonedas</li>
@@ -104,33 +135,44 @@
                 <li>Analítica Predictiva, Machine Learning e Inteligencia Artificial</li>
               </ul>
           </div>
-          
           <div id="about" class="content-region hide">
             <h2>Sobre nosotros</h2>
             <p>
-              Guacamayo Consultores ofrece consultoría de negocios y tecnologías de información para para tiempos de cambios en la nueva era digital del siglo XXI. <a href="">°L°</a>.   
+              Guacamayo Consultores ofrece consultoría de negocios y tecnologías de información para para tiempos de cambios en la nueva era digital del siglo XXI.   
             </p>
             <p>
               Nos respaldan más de 20 años de experiencia de mercado con diversos actores e industrias.
               Para ello nos ponemos a su disposición con nuestra cultura de amabilidad y servicio de calidad, tanto para proyectos estratégicos como para emergencias operacionales.
             </p>
           </div>
-          
           <div id="contact" class="content-region hide">
             <h2>Contacto</h2>
             <p>
               <a href="mailto:eduardo_lemp@guacamayoconsultores.com">Envíenos un correo</a>  
             </p>
+            <table>
+              <tr>
+                <th>Anti-stress</th>
+              </tr>
+              <tr>
+                <td><canvas id = "mi_canvas" width="730" height="80"></canvas></td>
+              </tr>
+              <tr>
+                <td>Dibuje manteniendo el botón izquierdo del mouse presionado y muévalo</td>
+              </tr>
+              <tr>
+                <td><a id="mi_arte" href="" download="mi_arte.png">Descargar mi dibujo</a></td>
+              </tr>
+            </table>
           </div>
-          
         </div>
       </div>
     </div>
-
     <footer>
       <div class="social-links">
         <table>
           <tr>
+            <th><div class="small-6 medium-3 columns text-center mobile-stack">&nbsp;&nbsp;</div></th>
             <th><div class="small-6 medium-3 columns text-center mobile-stack">
               <a href="https://www.linkedin.com/company/guacamayo-consultores/"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
             </div></th>
@@ -138,13 +180,14 @@
               <a href="https://www.facebook.com/guacamayoconsultores"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
             </div></th>
             <!--  <th><div class="small-6 medium-3 columns text-center mobile-stack">
-              <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a> -->
-            </div></th>
+              <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a> 
+            </div></th> -->
           </tr>
         </table>
       </div>        
     </footer>
         <!-- Load additional JS scripts here -->
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script_canvas.js"></script>
   </body>
 </html>
