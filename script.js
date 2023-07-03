@@ -17,7 +17,21 @@
     $(region).show();
     
     // Highlight the menu link associated with this region by adding the .active CSS class
-    $('.main-menu a[href="'+ region +'"]').addClass('active'); 
+    //$('.main-menu a[href="'+ region +'"]').addClass('active'); 
+
+    switch(region) {
+      case '#industry-tradition':
+        $('.main-menu a[href="#industry"]').addClass('active'); 
+        break;
+      case '#industry-4W3':
+        $('.main-menu a[href="#industry"]').addClass('active'); 
+        break;
+      case '#industry-tech':
+        $('.main-menu a[href="#industry"]').addClass('active'); 
+        break;
+      default:
+        $('.main-menu a[href="'+ region +'"]').addClass('active'); 
+    }
 
     // Alternate method: Use AJAX to load the contents of an external file into a div based on URL fragment
     // This will extract the region name from URL hash, and then load [region].html into the main #content div
