@@ -1,6 +1,6 @@
 const dibujo = document.getElementById("mi_canvas");
 const c = dibujo.getContext("2d");
-var isDrawing = true;
+var isDrawing = false;
 
 function draw(x, y) {
 
