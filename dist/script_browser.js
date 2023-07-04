@@ -12,4 +12,4 @@ window.mobileCheck = function() {
   };
 
   var nombre = document.getElementById("tabla_canvas").getAttribute("name");
-  alert(nombre);
+  //alert(nombre);
