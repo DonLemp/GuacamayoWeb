@@ -4,7 +4,7 @@ const c = dibujo.getContext("2d");
 function draw(x, y) {
 
     c.fillStyle = `rgb(
-        ${Math.floor(255 - x/2)},
+        ${Math.floor(255 - x)},
         ${Math.floor(255 - y*3)},
         0)`;
   if (isDrawing) {
