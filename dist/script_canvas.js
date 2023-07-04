@@ -5,7 +5,7 @@ var isDrawing = false;
 function draw(x, y) {
 
     c.fillStyle = `rgb(
-        ${Math.floor(255 - x)},
+        ${Math.floor(255 - x/2.6)},
         ${Math.floor(255 - y*3)},
         0)`;
 
