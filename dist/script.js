@@ -22,6 +22,7 @@
     // HIDE CANVAS IN MOBILE BROWSER
     var isMobile = $('#tabla_canvas').attr('name');
     if (String(isMobile).toLowerCase() == "true") {
+      alert("MOBILE");
       $('#tabla_canvas').hide();
     };
 
