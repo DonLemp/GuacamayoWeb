@@ -19,6 +19,12 @@
     // Highlight the menu link associated with this region by adding the .active CSS class
     //$('.main-menu a[href="'+ region +'"]').addClass('active'); 
 
+    // HIDE CANVAS IN MOBILE BROWSER
+    var isMobile = $('#tabla_canvas').attr('name');
+    if (String(isMobile).toLowerCase() == "true") {
+      $('#tabla_canvas').hide();
+    };
+
     switch(region) {
       case '#industry-tradition':
         $('.main-menu a[href="#industry"]').addClass('active'); 

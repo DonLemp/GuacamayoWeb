@@ -7,7 +7,7 @@
     <meta name="description" content="Consultoria Web Blockchain GPT">
     <meta name="author" content="Information about the author here">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="./img/favicon.ico">
   
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
@@ -32,9 +32,11 @@
         return check;
       };
 
+      // Lets put a signal to JQUERY hide() CANVAS when browsing from a mobile browser
       if(window.mobileCheck()) {
-        document.getElementById("tabla_canvas").style = "display: none;";
+        document.getElementById("tabla_canvas").setAttribute("name", "true");
       };
+
     </script>
     
   </head>
@@ -173,7 +175,7 @@
             <p>
               <a href="mailto:eduardo_lemp@guacamayoconsultores.com">Envíenos un correo</a>  
             </p>
-            <div id="tabla_canvas">
+            <div id="tabla_canvas" name="false">
               <table class="con-foto">
                 <tr>
                   <th>Anti-stress</th>

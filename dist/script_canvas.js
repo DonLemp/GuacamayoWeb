@@ -1,5 +1,6 @@
 const dibujo = document.getElementById("mi_canvas");
 const c = dibujo.getContext("2d");
+var isDrawing = true;
 
 function draw(x, y) {
 
@@ -7,6 +8,7 @@ function draw(x, y) {
         ${Math.floor(255 - x)},
         ${Math.floor(255 - y*3)},
         0)`;
+
   if (isDrawing) {
     c.beginPath();
     c.arc(x, y, 5, 0, Math.PI * 2);
