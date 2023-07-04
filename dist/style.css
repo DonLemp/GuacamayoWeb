@@ -191,8 +191,12 @@ ul.main-menu li a.active {
 }
 
 table.con-foto {
-  max-width:740px;
   margin:auto auto;
+}
+
+.equipo {
+  max-width: 100%;
+  height: auto;
 }
 
 canvas {
