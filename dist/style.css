@@ -211,9 +211,9 @@ canvas {
 .iframe-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 93%;
   padding-top: 178%; /* 9:16 Aspect Ratio (divide 16 by 9 = 1.7777) */
-  margin:25px auto;
+  margin: auto 25px;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
