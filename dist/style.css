@@ -96,18 +96,22 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
+html, #container, .inner { 
+  background-color:transparent;
+  width: 100%;
+  min-height: 100%;
+}
+
 html {
   background:url(../img/background.jpeg) center center no-repeat fixed;
   background-size:cover;
-  height: 100%;
-  width: 100%;
 }
+
 body {
   max-width:800px;
   margin:25px auto;
-  min-height: 100%;
 }
+
 header { 
   /* background: rgba(0,0,0,.8); */
   background: rgba(0, 1, 17, 0.8);
@@ -120,6 +124,7 @@ header {
   background: rgba(0, 1, 17, 0.8);
   padding:25px;
   color:#ffffff;
+  min-height: 100%;
 }
 
 /* Menu Links */
@@ -187,6 +192,12 @@ canvas {
   background: #000000;
   border: 1px dashed;
   margin: 0px auto;
+}
+
+footer {
+  clear: both;
+  position:relative;
+  bottom:0;
 }
 
 .iframe-container {
