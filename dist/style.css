@@ -113,6 +113,7 @@ header {
 }
 
 #content { 
+  /* background: rgba(0, 1, 17, 0.8); */
   background: rgba(0, 1, 17, 0.8);
   padding:25px;
   color:#ffffff;
@@ -208,6 +209,7 @@ ul.main-menu li a.active {
 canvas {
   background: #000000;
   border: 1px dashed;
+  margin: 0px auto;
 }
 
 .iframe-container {
