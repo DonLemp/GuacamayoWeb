@@ -103,7 +103,7 @@ html, #container, .inner {
 }
 
 html {
-  background:url(../img/background.jpeg) center center no-repeat fixed;
+  background:url(../img/background_low.jpeg) center center no-repeat fixed;
   background-size:cover;
 }
 
