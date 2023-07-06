@@ -184,6 +184,11 @@ ul.main-menu li a.active {
   margin:0px auto;
 }
 
+.LOGO-IDIOMA {
+  margin:0px;
+  min-width: 100%;
+}
+
 .equipo {
   max-width: 100%;
   height: auto;
