@@ -175,6 +175,7 @@ ul.main-menu li a.active {
   padding-bottom: 1rem;
 }
 
+/* Guacamayos Special */
 .guacamayo {
   color:#14b6d3;
 }
@@ -207,6 +208,22 @@ footer {
   height: 100%;
   padding-top: 310%;
   margin: 0px auto;
+}
+
+.profile-links {
+  background: #1d91cf00;
+  padding: 2rem 1rem 1rem;
+}
+
+.profile-links a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.profile-links i.fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
