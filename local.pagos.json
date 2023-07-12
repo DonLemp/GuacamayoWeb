@@ -1,0 +1,1102 @@
+[{
+  "href": "https://api.bsale.io/v1/payments/6.json",
+  "id": 6,
+  "amount": 297000,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "TRANSFERENCIA BANCARIA",
+  "fecha_pago": {
+    "$date": "2018-03-27T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/7.json",
+    "id": 7,
+    "emissionDate": 1522108800,
+    "expirationDate": 1522108800,
+    "generationDate": 1522170924,
+    "rcofDate": 1522108800,
+    "number": 1,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 297000,
+    "netAmount": 249580,
+    "taxAmount": 47420,
+    "exemptAmount": 0,
+    "notExemptAmount": 249580,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "Fundo Las Nieves s/n",
+    "municipality": "Puerto Octay",
+    "city": "Puerto Octay",
+    "urlTimbre": "http://app2.bsale.cl/uploads/timbres/19038_T33_F1.png",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/73f38d5e873d?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/73f38d5e873d.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/73f38d5e873d",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/73f38d5e873d.pdf",
+    "token": "73f38d5e873d",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/73f38d5e873d.xml",
+    "ted": "<TED version=\"1.0\"><DD><RE>76815545-3</RE><TD>33</TD><F>1</F><FE>2018-03-27</FE><RR>4773856-3</RR><RSR>SERGIO VASQUEZ MUJICA</RSR><MNT>297000</MNT><IT1>BOTTLEBAG RED</IT1><CAF version=\"1.0\"><DA><RE>76815545-3</RE><RS>COMERCIAL E INVERSIONES RELICURA SPA</RS><TD>33</TD><RNG><D>1</D><H>20</H></RNG><FA>2018-03-08</FA><RSAPK><M>wmF2ljtz5GG1qC095WKTAegB3F7FEy85tiA+vgi85Av2vj2+VIBOFJ2/RIj91CNZ+VnRmhZolXvoCXTuO4YWPQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">c7dSaEDgGRWZv98E1l4hekX12X6oj95gqn8CCYl347vsuWm+JPlv1tv9DLMwMv5rAikUsfKjgdG2mvtBgTpZyQ==</FRMA></CAF><TSTED>2018-03-27T14:15:24</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">YJ/agO4cV6SnfaBBhhEGC+5euE3/ztpR3ebyAQZ5VX2ZYOqtWC577+hh0JLiHNHs4KHH/q9kAbEAM3ZjXo2xjw==</FRMT></TED>",
+    "salesId": null,
+    "informedSii": 0,
+    "responseMsgSii": "Proceso Finalizado Correctamente!",
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/3.json",
+      "id": "3"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/7/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/7/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/7/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/7/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/7/attributes.json"
+    },
+    "tipo_doc": 5,
+    "nombre_doc": "FACTURA ELECTRÓNICA"
+  },
+  "nombre_cliente_pago": "Sergio Vasquez Mujica",
+  "rut_cliente": "4.773.856-3",
+  "empresa_cliente": "Sergio Vasquez Mujica",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Puerto Octay",
+  "direccion_cliente": "Fundo Las Nieves s/n"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/7.json",
+  "id": 7,
+  "amount": 185626,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-07T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/10.json",
+    "id": 10,
+    "emissionDate": 1523059200,
+    "expirationDate": 1523059200,
+    "generationDate": 1523120196,
+    "rcofDate": 1523059200,
+    "number": 2,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 185626,
+    "netAmount": 155988,
+    "taxAmount": 29638,
+    "exemptAmount": 0,
+    "notExemptAmount": 155988,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "Fundo Las Nieves s/n",
+    "municipality": "Puerto Octay",
+    "city": "Puerto Octay",
+    "urlTimbre": "https://s3.amazonaws.com/bsale/19038/timbres/T33_F2.png",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/05e9b9ef670d?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/05e9b9ef670d.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/05e9b9ef670d",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/05e9b9ef670d.pdf",
+    "token": "05e9b9ef670d",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/05e9b9ef670d.xml",
+    "ted": "<TED version=\"1.0\"><DD><RE>76815545-3</RE><TD>33</TD><F>2</F><FE>2018-04-07</FE><RR>4773856-3</RR><RSR>SERGIO VASQUEZ MUJICA</RSR><MNT>185626</MNT><IT1>BOTTLEBAG DOTS</IT1><CAF version=\"1.0\"><DA><RE>76815545-3</RE><RS>COMERCIAL E INVERSIONES RELICURA SPA</RS><TD>33</TD><RNG><D>1</D><H>20</H></RNG><FA>2018-03-08</FA><RSAPK><M>wmF2ljtz5GG1qC095WKTAegB3F7FEy85tiA+vgi85Av2vj2+VIBOFJ2/RIj91CNZ+VnRmhZolXvoCXTuO4YWPQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">c7dSaEDgGRWZv98E1l4hekX12X6oj95gqn8CCYl347vsuWm+JPlv1tv9DLMwMv5rAikUsfKjgdG2mvtBgTpZyQ==</FRMA></CAF><TSTED>2018-04-07T13:56:36</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">veXhATN5rC3GUADs6su3QdMVMVg0poRiep1Kr0AcYzFy/kexEt1SVjsd62l/sjWIby1XmccIH4DN0N/gwfbvAQ==</FRMT></TED>",
+    "salesId": null,
+    "informedSii": 0,
+    "responseMsgSii": "Proceso Finalizado Correctamente!",
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/3.json",
+      "id": "3"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/10/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/10/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/10/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/10/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/10/attributes.json"
+    },
+    "tipo_doc": 5,
+    "nombre_doc": "FACTURA ELECTRÓNICA"
+  },
+  "nombre_cliente_pago": "Sergio Vasquez Mujica",
+  "rut_cliente": "4.773.856-3",
+  "empresa_cliente": "Sergio Vasquez Mujica",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Puerto Octay",
+  "direccion_cliente": "Fundo Las Nieves s/n"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/8.json",
+  "id": 8,
+  "amount": 62990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-10T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/12.json",
+    "id": 12,
+    "emissionDate": 1523318400,
+    "expirationDate": 1523318400,
+    "generationDate": 1523368961,
+    "number": 1,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 62990,
+    "netAmount": 52933,
+    "taxAmount": 10057,
+    "exemptAmount": 0,
+    "notExemptAmount": 52933,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": "http://app2.bsale.cl/uploads/timbres/19038_T39_F1.png",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/50c3080f8ee7?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/50c3080f8ee7.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/50c3080f8ee7",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/50c3080f8ee7.pdf",
+    "token": "50c3080f8ee7",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/50c3080f8ee7.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/5.json",
+      "id": "5"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/12/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/12/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/12/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/12/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/12/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Nury Quiroz",
+  "rut_cliente": "",
+  "empresa_cliente": "Nury Quiroz",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/9.json",
+  "id": 9,
+  "amount": 27990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-10T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/13.json",
+    "id": 13,
+    "emissionDate": 1523318400,
+    "expirationDate": 1523318400,
+    "generationDate": 1523369368,
+    "number": 2,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 27990,
+    "netAmount": 23521,
+    "taxAmount": 4469,
+    "exemptAmount": 0,
+    "notExemptAmount": 23521,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": "",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/88938b9e8d67?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/88938b9e8d67.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/88938b9e8d67",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/88938b9e8d67.pdf",
+    "token": "88938b9e8d67",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/88938b9e8d67.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/6.json",
+      "id": "6"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/13/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/13/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/13/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/13/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/13/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Carmen Gloria López",
+  "rut_cliente": "",
+  "empresa_cliente": "Carmen Gloria López",
+  "email_cliente": "cglopezc@gmail.com",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/10.json",
+  "id": 10,
+  "amount": 12990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-10T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/14.json",
+    "id": 14,
+    "emissionDate": 1523318400,
+    "expirationDate": 1523318400,
+    "generationDate": 1523369781,
+    "number": 3,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 12990,
+    "netAmount": 10916,
+    "taxAmount": 2074,
+    "exemptAmount": 0,
+    "notExemptAmount": 10916,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": null,
+    "urlPublicView": "https://app2.bsale.cl/view/19038/3ae54ebe8161?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/3ae54ebe8161.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/3ae54ebe8161",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/3ae54ebe8161.pdf",
+    "token": "3ae54ebe8161",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/3ae54ebe8161.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/7.json",
+      "id": "7"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/14/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/14/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/14/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/14/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/14/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "María José Hernando",
+  "rut_cliente": "",
+  "empresa_cliente": "María José Hernando",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/11.json",
+  "id": 11,
+  "amount": 67970,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-10T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/15.json",
+    "id": 15,
+    "emissionDate": 1523318400,
+    "expirationDate": 1523318400,
+    "generationDate": 1523369886,
+    "number": 4,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 67970,
+    "netAmount": 57118,
+    "taxAmount": 10852,
+    "exemptAmount": 0,
+    "notExemptAmount": 57118,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": "",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/ff6fb18debe8?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/ff6fb18debe8.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/ff6fb18debe8",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/ff6fb18debe8.pdf",
+    "token": "ff6fb18debe8",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/ff6fb18debe8.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/8.json",
+      "id": "8"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/15/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/15/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/15/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/15/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/15/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Mariana Sinning",
+  "rut_cliente": "",
+  "empresa_cliente": "Mariana Sinning",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/13.json",
+  "id": 13,
+  "amount": 16990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "TRANSFERENCIA BANCARIA",
+  "fecha_pago": {
+    "$date": "2018-04-23T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/17.json",
+    "id": 17,
+    "emissionDate": 1524441600,
+    "expirationDate": 1524441600,
+    "generationDate": 1524490317,
+    "number": 6,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 16990,
+    "netAmount": 14277,
+    "taxAmount": 2713,
+    "exemptAmount": 0,
+    "notExemptAmount": 14277,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": null,
+    "urlPublicView": "https://app2.bsale.cl/view/19038/4c795fefe5bb?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/4c795fefe5bb.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/4c795fefe5bb",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/4c795fefe5bb.pdf",
+    "token": "4c795fefe5bb",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/4c795fefe5bb.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/9.json",
+      "id": "9"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/17/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/17/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/17/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/17/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/17/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Manfred Koening",
+  "rut_cliente": "",
+  "empresa_cliente": "Manfred Koening",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/15.json",
+  "id": 15,
+  "amount": 27990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-23T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/19.json",
+    "id": 19,
+    "emissionDate": 1524441600,
+    "expirationDate": 1524441600,
+    "generationDate": 1524490617,
+    "number": 8,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 27990,
+    "netAmount": 23521,
+    "taxAmount": 4469,
+    "exemptAmount": 0,
+    "notExemptAmount": 23521,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": null,
+    "urlPublicView": "https://app2.bsale.cl/view/19038/892f9a4e11cb?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/892f9a4e11cb.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/892f9a4e11cb",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/892f9a4e11cb.pdf",
+    "token": "892f9a4e11cb",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/892f9a4e11cb.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/10.json",
+      "id": "10"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/19/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/19/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/19/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/19/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/19/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Clarissa Venez",
+  "rut_cliente": "",
+  "empresa_cliente": "Clarissa Venez",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/16.json",
+  "id": 16,
+  "amount": 12990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-23T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/20.json",
+    "id": 20,
+    "emissionDate": 1524441600,
+    "expirationDate": 1524441600,
+    "generationDate": 1524490685,
+    "number": 9,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 12990,
+    "netAmount": 10916,
+    "taxAmount": 2074,
+    "exemptAmount": 0,
+    "notExemptAmount": 10916,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": null,
+    "urlPublicView": "https://app2.bsale.cl/view/19038/d78e6a311cd6?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/d78e6a311cd6.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/d78e6a311cd6",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/d78e6a311cd6.pdf",
+    "token": "d78e6a311cd6",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/d78e6a311cd6.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/11.json",
+      "id": "11"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/20/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/20/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/20/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/20/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/20/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Daniela Dueñas",
+  "rut_cliente": "",
+  "empresa_cliente": "Daniela Dueñas",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/17.json",
+  "id": 17,
+  "amount": 16990,
+  "checkDate": "2018-04-23",
+  "checkNumber": 1,
+  "checkAmount": "152449098423259",
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "CHEQUE",
+  "fecha_pago": {
+    "$date": "2018-04-23T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/21.json",
+    "id": 21,
+    "emissionDate": 1524441600,
+    "expirationDate": 1524441600,
+    "generationDate": 1524490986,
+    "number": 10,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 16990,
+    "netAmount": 14277,
+    "taxAmount": 2713,
+    "exemptAmount": 0,
+    "notExemptAmount": 14277,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": null,
+    "urlPublicView": "https://app2.bsale.cl/view/19038/43d27c70a4ed?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/43d27c70a4ed.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/43d27c70a4ed",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/43d27c70a4ed.pdf",
+    "token": "43d27c70a4ed",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/43d27c70a4ed.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/12.json",
+      "id": "12"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/21/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/21/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/21/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/21/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/21/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Lorena Santana",
+  "rut_cliente": "",
+  "empresa_cliente": "Lorena Santana",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+},
+{
+  "href": "https://api.bsale.io/v1/payments/18.json",
+  "id": 18,
+  "amount": 12990,
+  "checkDate": null,
+  "checkNumber": null,
+  "checkAmount": null,
+  "checkTaken": 0,
+  "isCreditPayment": 0,
+  "state": 0,
+  "nombre_pago": "EFECTIVO",
+  "fecha_pago": {
+    "$date": "2018-04-23T00:00:00.000Z"
+  },
+  "nombre_oficina": "Tienda 101: Pueblo del Inglés",
+  "nombre_usuario": "Paula Rojas",
+  "email_usuario": "paula.rojas@trillizos.cl",
+  "nom_oficina_usuario": "Tienda 101: Pueblo del Inglés",
+  "info_doc_pagado": {
+    "href": "https://api.bsale.io/v1/documents/22.json",
+    "id": 22,
+    "emissionDate": 1524441600,
+    "expirationDate": 1524441600,
+    "generationDate": 1524528502,
+    "number": 11,
+    "serialNumber": null,
+    "trackingNumber": null,
+    "totalAmount": 12990,
+    "netAmount": 10916,
+    "taxAmount": 2074,
+    "exemptAmount": 0,
+    "notExemptAmount": 10916,
+    "exportTotalAmount": 0,
+    "exportNetAmount": 0,
+    "exportTaxAmount": 0,
+    "exportExemptAmount": 0,
+    "commissionRate": 0,
+    "commissionNetAmount": 0,
+    "commissionTaxAmount": 0,
+    "commissionTotalAmount": 0,
+    "percentageTaxWithheld": 0,
+    "purchaseTaxAmount": 0,
+    "purchaseTotalAmount": 0,
+    "address": "",
+    "municipality": "",
+    "city": "",
+    "urlTimbre": "",
+    "urlPublicView": "https://app2.bsale.cl/view/19038/f0fa7cbd4256?sfd=99",
+    "urlPdf": "https://app2.bsale.cl/view/19038/f0fa7cbd4256.pdf?sfd=99",
+    "urlPublicViewOriginal": "https://app2.bsale.cl/view/19038/f0fa7cbd4256",
+    "urlPdfOriginal": "https://app2.bsale.cl/view/19038/f0fa7cbd4256.pdf",
+    "token": "f0fa7cbd4256",
+    "state": 0,
+    "commercialState": 0,
+    "urlXml": "https://api.bsale.cl/v1/19038/files/f0fa7cbd4256.xml",
+    "ted": null,
+    "salesId": null,
+    "informedSii": 1,
+    "responseMsgSii": null,
+    "client": {
+      "href": "https://api.bsale.io/v1/clients/13.json",
+      "id": "13"
+    },
+    "office": {
+      "href": "https://api.bsale.io/v1/offices/1.json",
+      "id": "1"
+    },
+    "user": {
+      "href": "https://api.bsale.io/v1/users/2.json",
+      "id": "2"
+    },
+    "coin": {
+      "href": "https://api.bsale.io/v1/coins/1.json",
+      "id": "1"
+    },
+    "references": {
+      "href": "https://api.bsale.io/v1/documents/22/references.json"
+    },
+    "document_taxes": {
+      "href": "https://api.bsale.io/v1/documents/22/document_taxes.json"
+    },
+    "details": {
+      "href": "https://api.bsale.io/v1/documents/22/details.json"
+    },
+    "sellers": {
+      "href": "https://api.bsale.io/v1/documents/22/sellers.json"
+    },
+    "attributes": {
+      "href": "https://api.bsale.io/v1/documents/22/attributes.json"
+    },
+    "tipo_doc": 1,
+    "nombre_doc": "BOLETA ELECTRÓNICA T"
+  },
+  "nombre_cliente_pago": "Paula Recabarren",
+  "rut_cliente": "",
+  "empresa_cliente": "Paula Recabarren",
+  "email_cliente": "Sin especificar",
+  "ciudad_cliente": "Sin especificar",
+  "direccion_cliente": "Sin especificar"
+}]
